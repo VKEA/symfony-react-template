@@ -1,13 +1,13 @@
 matrix:
   include:
     - language: php
-    php:
-      - 7.4.8
-    sudo: false
-    before_script: composer install
-    script: phpunit
+      php:
+        - 7.4.8
+      sudo: false
+      before_script: composer install
+      script: phpunit
     
     - language: node_js
-    node_js:
-      - 7
-    before_script: yarn install
+      node_js:
+        - 7
+      before_script: yarn install
