@@ -18,5 +18,5 @@ matrix:
     
     - language: node_js
       node_js:
-        - 10.13.0
+        - lts/*
       before_script: yarn install
