@@ -1,4 +1,6 @@
 language: php
+php:	
+    - 7.4.8
 sudo: false
 cache:
     directories:
