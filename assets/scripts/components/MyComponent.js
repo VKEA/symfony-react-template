@@ -2,7 +2,7 @@ import React from 'react'
 
 function MyComponent(props) {
 return (
-<div class="example-wrapper">
+<div className="example-wrapper">
     <h1>Hello World! ✅</h1>
 
     This friendly message is coming from:
