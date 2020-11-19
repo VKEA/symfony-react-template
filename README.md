@@ -1,4 +1,4 @@
-# symfony-react-template [![Build Status](https://travis-ci.org/VKEA/symfony-react-template.svg?branch=master)](https://travis-ci.org/VKEA/symfony-react-template)
+# symfony-react-template
 Symfony 5 boilerplate with WebpackEncoreBundle and React configured.
 
 # installation
