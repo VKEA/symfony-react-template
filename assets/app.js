@@ -4,11 +4,19 @@
  * We recommend including the built version of this JavaScript file
  * (and its CSS file) in your base layout (base.html.twig).
  */
+  
+import React from 'react'
+import ReactDOM from 'react-dom'
+import MyComponent from './scripts/components/MyComponent'
 
 // any CSS you import will output into a single css file (app.css in this case)
 import './styles/app.css';
 
-// Need jQuery? Install it with "yarn add jquery", then uncomment to import it.
-// import $ from 'jquery';
+ReactDOM.render(
+    <React.StrictMode>
+        <MyComponent />
+    </React.StrictMode>,
+    document.getElementById('root')
+)
 
-console.log('Hello Webpack Encore! Edit me in assets/app.js');
+serviceWorker.unregister()
